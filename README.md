@@ -2,7 +2,7 @@
 
 This is a example Dockerfile
 ```
-FROM index.alauda.io/mathilde/docker-cron
+FROM index.alauda.io/mathildetech/docker-cron
 
 # place you cron job file under /cron
 ADD /path/to/your_cron_file /cron/your_cron_file
