@@ -6,4 +6,6 @@ COPY run-cron.py  /run-cron.py
 COPY test.cron /cron/
 RUN chmod a+x /test.sh
 
+VOLUME /cronlogs
+
 CMD ["python", "/run-cron.py"]
